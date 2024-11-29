@@ -11,4 +11,4 @@ RUN apt-get update && \
 
 EXPOSE 21117
 
-CMD ["./hbbr"]
+ENTRYPOINT ["./hbbr"]
